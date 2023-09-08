@@ -4,17 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
-    
-    <link rel="stylesheet" href="/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+
+    <link rel="stylesheet" href="/style.css" />
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <select value="" id="">
+        <option value="">Select a city...</option>
+        <option value="">London</option>
+        <option value="">New York</option>
+        <option value="">Auckland</option>
+      </select>
+
+      <div class="city">
+        <h2>Loas Angeles</h2>
+        <div class="date">September 8th 2023</div>
+        <div class="time">1:45:15 AM</div>
+      </div>
+
+      <div class="city">
+        <h2>Sydney</h2>
+        <div class="date">September 8th 2023</div>
+        <div class="time">1:45:15 AM</div>
+      </div>
+    </div>
     <footer>
-      
-      <a href="https://github.com/Isapedro/world-clock" target="_blank"> Open-source Code </a> by Anaisa Pedro
+      <a href="https://github.com/Isapedro/world-clock" target="_blank">
+        Open-source Code
+      </a>
+      by Anaisa Pedro
     </footer>
-    <script src="/index.js"> </script>
+    <script src="/index.js"></script>
   </body>
 </html>
