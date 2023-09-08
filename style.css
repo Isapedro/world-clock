@@ -26,19 +26,20 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 60 auto;
+  margin: 60px auto;
   background-color: #acdcee;
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
   color: #475053;
 }
 
 .city {
   display: flex;
-  margin: 20px 0;
-  border-bottom: 1px dashed;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   justify-content: space-between;
+  padding: 30px 0;
 }
 .city:last-child {
   border: none;
