@@ -46,5 +46,5 @@ function updateCity(event) {
         </div>`;
 }
 
-let citiesSelect = document.querySelector("#city");
+let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change",updateCity);
