@@ -22,6 +22,7 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+  color: #f0fbff;
 }
 
 .container {
@@ -59,5 +60,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: #475053;
+  color: #70a7cb;
 }
